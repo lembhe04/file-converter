@@ -1,10 +1,47 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 📄 File Converter (DOCX ↔ PDF)
+
+A simple **Next.js** web app to convert files between **DOCX** and **PDF** formats using **LibreOffice** in the backend.  
+Users can easily upload a file, select conversion type, and download the converted file instantly.
+
+---
+
+## 🚀 Features
+- Convert **DOCX → PDF**
+- Convert **PDF → DOCX**
+- Simple UI with **React + TailwindCSS**
+- File upload and instant download
+- Responsive design with navbar & footer
+
+---
+
+## 🛠️ Tech Stack
+- **Frontend:** Next.js 15, React, TailwindCSS
+- **Backend:** Next.js API routes
+- **File Conversion:** LibreOffice (`soffice` CLI)
+- **Deployment Ready:** Works locally and can be hosted on Vercel/Render with LibreOffice installed
+
+---
+
+## 📂 Project Structure
+├── app
+│ ├── api
+│ │ └── convert
+│ │ └── route.js # API for file conversion
+│ ├── component
+│ │ ├── Navbar.js # Top navigation bar
+│ │ └── Footer.js # Footer component
+│ └── convert
+│ └── page.js # File conversion page (UI)
+├── public # Static assets
+├── package.json
+└── README.md
 
 ## Getting Started
 
 First, run the development server:
 
 ```bash
+npm install
 npm run dev
 # or
 yarn dev
@@ -20,17 +57,4 @@ You can start editing the page by modifying `app/page.js`. The page auto-updates
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
