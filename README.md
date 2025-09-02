@@ -23,6 +23,7 @@ Users can easily upload a file, select conversion type, and download the convert
 ---
 
 ## 📂 Project Structure
+```
 app
 ├── api
 │ └── convert
@@ -35,9 +36,8 @@ app
 ├── public # Static assets
 ├── package.json
 └── README.md
+```
 
-
-👉 Do you want me to also add emoji icons (📁, 📄, ⚡) to make the project structure look more modern and visually appealing?
 
 ## Getting Started
 
