@@ -28,6 +28,10 @@ app
 ├── api
 │ └── convert
 │ └── route.js # API for file conversion
+│ └── pdf-to-docx
+│ └── route.js # API for pdf conversion
+│ └── docx-to-pdf
+│ └── route.js # API for docx conversion
 ├── component
 │ ├── Navbar.js # Top navigation bar
 │ └── Footer.js # Footer component
