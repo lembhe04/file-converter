@@ -23,18 +23,21 @@ Users can easily upload a file, select conversion type, and download the convert
 ---
 
 ## 📂 Project Structure
-├── app
-│ ├── api
-│ │ └── convert
-│ │ └── route.js # API for file conversion
-│ ├── component
-│ │ ├── Navbar.js # Top navigation bar
-│ │ └── Footer.js # Footer component
+app
+├── api
 │ └── convert
+│ └── route.js # API for file conversion
+├── component
+│ ├── Navbar.js # Top navigation bar
+│ └── Footer.js # Footer component
+├── convert
 │ └── page.js # File conversion page (UI)
 ├── public # Static assets
 ├── package.json
 └── README.md
+
+
+👉 Do you want me to also add emoji icons (📁, 📄, ⚡) to make the project structure look more modern and visually appealing?
 
 ## Getting Started
 
